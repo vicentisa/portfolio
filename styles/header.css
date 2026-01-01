@@ -1,0 +1,29 @@
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+    .cabeçalho__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .nav__lista {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1.5em;
+        }
+
+            .nav__lista__item__link {
+                font-family: var(--fonte-texto);
+                font-size: 12px;
+                font-weight: 500;
+                color: var(--rosa);
+                text-decoration: none;
+            }
+

@@ -1,0 +1,25 @@
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+    .tecnologias__lista {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-around;
+        align-items: center;
+        gap: 1em;
+        margin: 0.3em 2em;
+    }
+
+        .tecnologias__caixa {
+            background-color: var(--rosa);
+            border-radius: 16px;
+            padding: 1em;
+        }
+
+.tecnologias img {
+  filter: brightness(0) invert(1);
+}
